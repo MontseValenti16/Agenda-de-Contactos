@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Agenda de contactos</title>
+</head>
+<body>
+    <h1>Agenda de Contactos</h1>
+    <div id="container">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required><br><br>
+        <label>Teléfono:</label>
+        <input type="text" id="telefono" required><br><br>   
+        <button type="submit" id="add">Agregar Contacto</button>
+    </div>
+
+    <button id="mostrar">Mostrar contactos</button>
+    <h2>Contactos</h2>
+    <ul id="contact-list"></ul>
+
+    <script type="module" src="./src/controllers/index.js"></script>
+</body>
+</html>
