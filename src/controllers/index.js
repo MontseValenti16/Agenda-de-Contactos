@@ -32,7 +32,6 @@ document.getElementById("add").addEventListener("click", function(){
         agenda.addContact({ nombre: nombre, telefono: telefono });
         mostrarContactos();
         
-        // Limpiar los campos del formulario
         document.getElementById("nombre").value = "";
         document.getElementById("telefono").value = "";
     } else {
